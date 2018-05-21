@@ -140,5 +140,5 @@ function handleRcvMsg(msg){
 	//document.write(indigoData);
     console.log("The received action is " + actions);  
 	//document.getElementById("rainbow").innerHTML = "Capacity: 50,  Free Slot: "+rainbowData;
-	document.getElementById("indigo").innerHTML = "Capacity: 4,  Free Slot: "+(4-indigoData);
+	document.getElementById("indigo").innerHTML = "Capacity: 4,  Free Slot: "+indigoData;
 }
